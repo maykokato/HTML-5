@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto escondido</title>
+
+    <style>
+        div{
+            display: inline-block;
+            border: 1px solid black;
+            width: 200px;
+            height: 30px;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        div > ul{
+            display: none;
+        }
+
+        div:hover > ul{
+            display: block;
+            color: black;
+        }
+
+        ul{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Jogos de X-box
+        <ul>
+            <li>EA 26</li>
+        </ul>
+    </div>
+    <div>
+        Jogos do Playstation
+        <ul>
+            <li>Jogo 1</li>
+        </ul>
+    </div>
+    <div>
+        Jogos da Steam
+         <ul>
+            <li>Jogo 1</li>
+        </ul>
+    </div>
+</body>
+</html>

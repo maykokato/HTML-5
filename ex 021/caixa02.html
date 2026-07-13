@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags em HTML 5</title>
+    <style>
+       
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+
+        article{
+            background-color: rgb(20, 15, 92);
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: rgb(123, 153, 163);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        
+        footer> p{
+            margin: 0px;
+        }
+
+        nav{
+            background-color: green;
+            padding: 10px;
+            box-shadow: 1px 1px 1px black;
+        }
+
+        nav> a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav> a:hover{
+            text-decoration: underline;
+            }
+        
+        #menu{
+        color: red;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #menu:hover{
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+
+
+        </style>
+        
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+       
+        <section id="menu">
+                <p>Esportes - Politica - Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos sunt perspiciatis animi hic sapiente tempore quaerat totam dolorum, eum aliquid id incidunt deserunt laborum nesciunt accusantium veritatis voluptatibus labore harum!</p>
+            <aside>
+                <p>Artigo escrito por Jose da Silva</p>
+            </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+                <p>Desenvolvido pelo curso em vídeo.</p>
+    </footer>
+<iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/xS2D9x8odoE"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+</iframe>
+    
+</body>
+</html>
