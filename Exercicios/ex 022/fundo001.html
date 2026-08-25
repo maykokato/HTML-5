@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de imagem de fundo</title>
+    <style>
+        div.quadrado{
+            display: inline-block;
+            border: 2px solid black;
+            border-radius: 150px;
+            background-color: yellowgreen;
+            width: 100px;
+            height: 100px;
+        }
+
+        div#q2{
+            background-image: linear-gradient(to bottom, pink, red)
+        }
+
+        div#q3{
+            background-image: url(imagens/wallpaper001.jpg);
+        }
+
+        body{
+            
+        }
+
+        div{
+            background-image: url(imagens/wallpaper002.jpg);
+            background-size: cover;
+        }
+
+        div.alimentos{
+            display: flex;
+            border: 2px solid black;
+            width: 100px;
+            height: 100px;
+            border-radius: 150px;
+            background-color: white;
+            justify-content: center; /* centraliza na horizontal */
+            align-items: center;     /* centraliza na vertical */
+        }
+
+        div#ali1:hover{
+            background-image: url(imagens/wallpaper001.jpg);
+        }
+
+        div.comida{
+            display: flex;
+            gap: 20px;
+        }
+        div.item{
+            display: flex;
+            border: 3px solid black;
+            border-radius: 150px;
+            background-color: white;
+            width: 300px;
+            height: 300px;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;        
+        }
+
+        div#big:hover{
+            background-image: url(imagens/bigmac.avif);
+            background-size: 70%;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        div#who:hover{
+            background-image: url(imagens/whopper.png);
+            background-size: 80%;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        div#sor:hover{
+            background-image: url(imagens/sorvete.jpg);
+            background-size: 50%;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="quadrado" id="q1"></div>
+
+    <div class="quadrado" id="q2"></div>
+
+    <div class="quadrado" id="q3"></div>
+
+    <p>
+
+    <div class="alimentos" id="ali1">BIG MAC</div>
+
+    <div class="alimentos" id="ali2">Whopper</div>
+
+    <div class="alimentos" id="ali3">Sorvete</div>
+
+    </p>
+
+    <p>
+        <div class="comida">
+            <div class="item" id="big">Big Mac</div>
+            <div class="item" id="who">Whopper</div>
+            <div class="item" id="sor">Sorvete</div>
+        </div>
+    </p>
+</body>
+</html>
