@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    margin: 300px;
+    margin-top: 0px;
+    font-size: 30px;
+}
+p{
+    padding: 50px;
+    padding-bottom: 0px;
+}
+
+h1{
+    text-align: center;
+}
+
+nav{
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 2vh;
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    
+}

@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html{
+    height: 100vh;
+    }
+
+
+header h1{
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 7%, rgba(168, 155, 155, 1) 35%, rgba(32, 34, 36, 0.94) 78%);
+    padding: 20px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1.3em;
+    font-family: "Inter", sans-serif;
+}
+
+nav{
+    display: flex;
+    margin-left: 20vh;
+    gap: 40px;
+    font-family: "Inter", sans-serif;
+}
+
+nav img{
+    height: 35px;
+    padding: 5px;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+nav li{
+    padding: 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(104, 103, 103);
+}
+
+#direita{
+    margin-left: 45vh;
+}
+
+#direita img{
+    width: 18px;
+    height: 18px;
+    padding: 0;
+    filter: opacity(50%);
+}
+
+#preços{
+    padding: 30px;
+    font-family: "Inter", sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+}
