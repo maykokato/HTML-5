@@ -62,8 +62,18 @@ nav a{
 #preços{
     padding: 30px;
     font-family: "Inter", sans-serif;
+    text-align: center;
+    
 }
 
 table{
     border-collapse: collapse;
+    margin: auto;
+    margin-top: 30px;
+    width: 800px;
 }
+
+table td{
+    padding-bottom: 10px;
+}
+
