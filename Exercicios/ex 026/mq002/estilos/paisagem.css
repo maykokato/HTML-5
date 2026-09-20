@@ -1,12 +1,9 @@
 @charset "UTF-8";
 /*  Telas em modo paisagem */
 
-
-
-
-
 body{
     background-image: url("../imagens/cev-landscape.jpg");
     background-repeat: no-repeat;
     background-position: bottom left;
+    background-size: contain;
 }
