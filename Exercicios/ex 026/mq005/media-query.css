@@ -18,6 +18,14 @@
         width: 700px;
     }
     
-    
+    #whatsapplogo{
+    position: fixed;
+    right: 5px;
+    top: 845px;
+    display: inline;
+
+    width: 60px;
+    height: auto;
+}
 }
 
