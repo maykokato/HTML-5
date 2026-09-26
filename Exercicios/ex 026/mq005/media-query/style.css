@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style: none;
+
+}
+
+ul li{
+    display: inline-block;
+    padding: 10px;
+    background-color: white;
+    position: relative;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 18px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    font-weight: normal;
+
+    color: black;
+    font-size: 15px;
+}
+
+menu{
+    margin: 0;
+    padding: 0;
+    height: 10vh;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+/* Esconde a lista de filiais */
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 180px;
+    background-color: white;
+    padding: 0;
+}
+
+#menumaior{
+        min-width: 250px;
+}
+
+/* Mostra quando passar o mouse */
+
+.dropdown:hover .submenu {
+    display: block;
+}
+
+/* Deixa as opções uma embaixo da outra */
+.submenu li {
+    display: block;
+    width: 60%;
+}
+
+.submenu a {
+    padding: 10px;
+    white-space: nowrap;
+
+}
+
+.submenu a:hover {
+    background-color: lightgray;
+}
+
+img{
+    width: 250px;
+    height: auto;
+    margin: 0px;
+}
