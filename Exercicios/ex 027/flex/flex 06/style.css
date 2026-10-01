@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(185, 185, 185);
+}
+
+#conteiner{
+    display: flex;
+    flex-flow: row nowrap;
+    
+
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    align-content: flex-start;
+
+    gap: 0px;
+}
+
+div.item{
+    background-color: purple;
+    background-size: cover;
+    border: 1px solid black;
+    padding: 5px;
+
+    flex-basis: 200px;
+
+
+    flex-shrink: 1;
+    flex-grow: 0;
+}
+
+div.item#first{
+    flex-grow: 0;
+    flex-shrink: 0;
+}
