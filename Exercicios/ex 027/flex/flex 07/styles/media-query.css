@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 700px){
+
+    div#conteiner{
+        justify-content: center;
+    }   
+    
+    div#conteiner ul{
+        flex-flow: column;
+    }
+    
+    div#conteiner .item{
+        width: 90vw;
+    }
+}
